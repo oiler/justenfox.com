@@ -1,0 +1,137 @@
+Justen Fox - jrf1039@gmail.com 
+
+DIGITAL PRODUCT DEVELOPMENT
+===========================
+Self-taught developer, liberal arts educated - Empathetic, informed, and thoughtful producer of digital projects - Resourceful, competitive, adaptable, reasonable, calm - Excellent communicator of complex technical ideas into understandable concepts
+
+
+TECHNICAL SKILLS & QUALIFICATIONS
+=================================
+HTML, CSS, Javascript, web development - Proficient in PHP, WordPress, Drupal development - Excellent eye for UX design and concepts - Understanding of Object Oriented Programming concepts and MVC architectural patterns - Producer of mobile-first and responsive web solutions - Experience scaling enterprise-level code and infrastructure - LAMP and LEMP full-stack development - RESTful, semantic API build and integration - Writing, communication, and documentation - Digital native with both business and personal experience in online interaction and organizing - Exceptional social media judgment and knowledge of best practices - 10+ years of experience bringing web development projects to life - Defining products to be compatible in an unknown future
+
+
+PROFESSIONAL EXPERIENCE
+=======================
+
+Senior Product Manager - Vox Media — 2015-current
+-------------------------------------------------------------------
+Product Manager for Vox's Revenue Platform that creates and manages custom ad campaigns. Also lead PM charged with improving the user experience + performance of ads.
+
+Director of Product & Engineering - The New Republic - 2012-2015
+-------------------------------------------------------------------
+Lead digital media and technical voice as our 100 year old magazine transitions to become a modern web publishing company.
+
+Developer - Time.com - 2012
+---------------------------
+Contract web developer hired to contribute to TIME Magazine's responsive redesign; officially launched, late October of 2012.
+
+Marketing Producer - Major League Baseball Advanced Media - 2011-2012
+---------------------------------------------------------------------
+Hybrid role of Project Manager, Producer and Front-End Developer for MLB.com and its club sites.
+
+Digital Media Manager - Tampa Bay Lightning - 2009-2011
+-------------------------------------------------------
+Started team's Digital Media department and built it from the ground up; working also with NHL.com development team and support infrastructure.
+
+Developer - New York Times Regional Media Group - 2007-2009
+-----------------------------------------------------------
+Co-managed team of front-end producers/developers tasked with building customized, individual operated regional newspaper websites as well as integrating those sites into centralized codebase and infrastructure.
+
+Director of Digital Media / IT - Alex Sink for CFO - 2006
+---------------------------------------------------------
+Collaborated with communications director to create, build, and administer campaign website and e-mail messages.
+
+Web Specialist / Account Manager - HCP & Associates - 2005-2007
+---------------------------------------------------------------
+Managed client accounts, specializing in digital / web marketing consulting.
+
+On-Air Guest Coordinator - Home Shopping Network - 2003-2005
+------------------------------------------------------------
+Brought on to increase on-air guest department's ability to recruit and train roster of on-air guests to match with products for filming.
+
+Casting Director - Grant Wilfley Casting - 2000-2002
+----------------------------------------------------
+Extras casting for large, made in NYC television and film projects.
+
+
+EXTRA
+=====
+
+Data Journalism Seminar - Poynter Institute - 2012
+--------------------------------------------------
+Attended a four-day seminar at the Poynter institute to work with Aron Pilhofer, Matt Waite and other acclaimed journalists to learn how to build data news applications.
+
+Instructor - The New York Times Student Journalism Institute - 2009
+-------------------------------------------------------------------
+Worked as an instructor at the New Orleans program run by Don Hecker, of the NY Times, in May, 2009. Taught student journalists basic html skills and how to produce stories on the web.
+
+Board Member - Creative Tampa Bay - 2006-2010
+---------------------------------------------
+Not-for-profit organization organized to connect creative industries with business and economic development in the greater Tampa Bay area.
+
+Founding Co-Chair - Emerge Tampa Bay - 2004-2006
+------------------------------------------------
+Inaugural member and co-chair for leadership program of the Greater Tampa Chamber of Commerce designed to engage emerging young professionals.
+
+
+EDUCATION
+=========
+
+BA, History / BA, American Studies - Florida State University - 1995-1999
+-------------------------------------------------------------------------
+Club president, team captain for FSU Hockey Club, 1996-97. Chairperson of Sports Club Council, 1998, Vice-chairperson of Sports Club Council, 1997. Minor studies in Film, Classics, and Eastern European studies.
+
+
+DOSSIER
+========
+* plus.google.com
+* twitter.com/oiler
+* github.com/oiler
+* instagram.com/oiler
+* atoiler.tumblr.com
+* about.me/justenfox
+* facebook.com/justenfox
+* foursquare.com/oiler
+* spotify.com/user/oiler2
+* linkedin.com/in/justenfox
+
+
+TECHNICAL SKILLS
+================
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* PHP
+* Apache
+* MySQL
+* XML
+* WordPress
+* Drupal
+* Git
+* Subversion
+* Omniture
+* Google Analytics
+* Doubleclick / DFP
+* Jira
+* Asana
+* Adobe DPS
+* Newtek Tricaster
+* Non-linear video editing
+* Final Cut Pro
+* Sony Vegas
+* iMovie
+* Video compression
+* DSLR Photography
+* DNS Management
+* Google Apps Administration
+* AWS EC2, S3, Cloudfront
+* Neulion
+* Saxotech Online
+* cPanel/WHM
+* Sailthru
+* HubSpot
+* MailChimp
+* Formstack
+* Convio
+* Ticketmaster Architcs, Mail Manager
