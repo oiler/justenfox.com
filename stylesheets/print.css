@@ -1,0 +1,44 @@
+/*print.css*/
+.screen.content { display:none!important; visibility:hidden!important; height:0!important; }
+.print.content { display:block!important; visibility:visible!important; height:auto!important; }
+
+.square.bullet.list { margin:10px; padding:0 10px; }
+
+.wrapper { width:100%; overflow:hidden; }
+.page.header { margin-top:14px; }
+.section.header { margin:30px 0 10px 0; }
+.header .social { float:none; width:100%; }
+.header .social img { float:none; }
+.lede { text-align:left; margin-left:0; }
+.marker { margin:10px auto 30px auto; text-align:left; background:#fff; padding:10px 0 0 0; }
+.marker span { width:60px; }
+/*.item { overflow:inherit; }*/
+.item.odd .job,
+.item.even .job { left:44px; width:98%; }
+.item.odd .job img,
+.item.even .job img { float:left; right:24px; left:inherit; }
+.item.odd .job .logo:before,
+.item.even .job .logo:before { top:-20px; left:0 }
+.item.odd .job .logo:after,
+.item.even .job .logo:after { top:60px; left:0; }
+.item.odd .job .text,
+.item.even .job .text { width:70%; margin-right:10%; float:left; text-align:left; height:auto; }
+
+.item .job span { font-size:14px; line-height:1.3; max-width:500px; }
+.item.odd .job .text { height:auto; }
+
+.other.items .item ul li { font-size:12px; }
+.other .notables li { margin:4px 0; }
+
+a:link, a:visited, a:hover, a:active { color:#000; }
+
+.about, .currently,
+.section.header.about, 
+.section.header.currently,
+.footer { display:none; visibility:hidden; height:0; margin:0; }
+
+
+.social { display:none; visibility:visible; }
+
+.timeline .item4,
+.education.items { page-break-before:always; }
