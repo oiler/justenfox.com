@@ -37,6 +37,10 @@ a:link, a:visited, a:hover, a:active { color:#000; }
 .section.header.currently,
 .footer { display:none; visibility:hidden; height:0; margin:0; }
 
+/* ENABLE briefly about section here */
+/* 
+.group.lede.about { margin-left:44px; max-width:600px; }
+*/
 
 .social { display:none; visibility:visible; }
 
