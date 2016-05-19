@@ -157,6 +157,7 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
 
 </style>
 
+<!-- <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/print.css" /> -->
 <link rel="stylesheet" type="text/css" media="print" href="stylesheets/print.css" />
 
 </head>
@@ -185,29 +186,54 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
 
 <div class="section header about">Briefly About</div>
 <div class="group lede about">
-    <p class="screen content">My work history is the result of what happens when a liberal arts student wants a future as a storyteller, but realizes that to get there he should learn how the internet works and how to write code. I'm a <em>digital product developer</em>, which is a term I absolutely made up, but I hope that it conveys both the 10+ years I've spent building web sites and the 5+ combined years I have product managing them. In my spare time, I listen to a lot of podcasts at 2X speed and I enjoy competing in as many recreational team sports as my schedule, location, body, and the weather will allow. For way too much more detail about what passes through my mind, just <a href="http://atoiler.tumblr.com" target="_blank">start scrolling through this tumblr I keep</a>.</p>
-    <p class="print content">My work history is the result of what happens when a liberal arts student wants a future as a storyteller, but realizes that to get there he should learn how the internet works and how to write code. I'm a <em>digital product developer</em>, which is a term I absolutely made up but I hope that it conveys both the 10+ years I've spent developing web sites with the 5+ combined years I have product managing them. In my spare time, I listen to a lot of podcasts at 2X speed and I enjoy competing in as many recreational team sports as my schedule, location, body, and the weather will allow. For way too much more detail about what passes through my mind, just start scrolling through this tumblr I keep: atoiler.tumblr.com</p>
+    <p class="screen content">My work history is the result of what happens when a liberal arts student wants a future telling stories, but then realizes that he should learn how the internet works and how to write code. I'm a <em>digital product developer</em>, which is a term I absolutely made up, but I hope that it conveys both the 10+ years I've spent building web sites and the 5+ combined years I have product managing them. In my spare time, I listen to a lot of podcasts at 2X speed and I enjoy competing in as many recreational team sports as my schedule, location, body, and the weather will allow. For way too much more detail about what passes through my mind, just <a href="http://atoiler.tumblr.com" target="_blank">start scrolling through this tumblr I keep</a>.</p>
+    <p class="print content">My work history is the result of what happens when a liberal arts student wants a future telling stories, but then realizes that he should learn how the internet works and how to write code. I'm a <em>digital product developer</em>, which is a term I absolutely made up, but I hope that it conveys both the 10+ years I've spent building web sites and the 5+ combined years I have product managing them. In my spare time, I listen to a lot of podcasts at 2X speed and I enjoy competing in as many recreational team sports as my schedule, location, body, and the weather will allow. For way too much more detail about what passes through my mind, just start scrolling through this tumblr I keep: atoiler.tumblr.com</p>
 </div>
 
 
 <div class="section header currently">Currently Involved</div>
 <div class="group lede currently">
-    <p>Aside from my day job, here are some work-related items of recent interest:
+<!--     <p>Aside from my day job, here are some work-related items of recent interest: -->
+        <p>As of spring of 2016, my focus has shifted back to the engineering side, and less product management. As a result:
         <ul class="square bullet list">
-            <li>Testing the limits of Excel with rows and rows of game by game hockey and baseball stats
-            <li>Slowly learning <del>R (stats)</del> Python so I can not abuse Excel as much
-            <li>Hiding most of my code inside private GitHub repositories
-            <li>Playing with the WordPress API to publish/save shorter + more frequent threads (instead of just posts that look like articles)
+            <li>Aside from getting back into the WordPress community, I've been digging into ES6 & Babel, Prototypal JavaScript, and a little NodeJS
+            <li>I had been working with Python (<a href="https://source.opennews.org/en-US/articles/introducing-agate/" target="_blank">agate</a>) and D3, but I've put that on hold for now. Before I paused, the last thing I did with it was put together this rough analysis of the <a href="http://playoffs.nhldata.com/" target="_blank">2016 NHL Playoff Matchups</a>.
+<!--             <li>Testing the limits of Excel with rows and rows of game by game hockey and baseball stats
+            <li>Slowly learning <del>R (stats)</del> Python so I can not abuse Excel as much -->
+            <li>Still working on a yet to be named side project that juggles the WordPress API to publish/save shorter + more frequent pieces / threads inside a single <em>post</em> (instead of just posts that look like articles)
         </ul>
     </p>
 </div>
 
 
 <div class="group timeline items">
-    <div class="section header">Last Ten Years</div>
-    <div class="group first item odd item1">
+    <div class="section header">
+        <span class="screen content">Last Ten Years</span>
+        <span class="print content">Work Experience</span>
+    </div>
+
+    <div class="group first item odd item8">
         <div class="group marker">
             <span>Current</span>
+        </div>
+        <div class="group job vox">
+            <div class="logo"><img src="assets/bp.jpg"></div>
+            <div class="text">
+                <h4>Digital Consultant</h4>
+                <h5>Baseball Prospectus</h5>
+                <span class="screen content">
+                    For a while after deciding to leave Vox, friends and family would ask what kind of product role I really wanted to have and I kept describing to them a hypothetical website of a certain audience size, editorial focus, mission, etc. And then I would always follow that ramlbing up with a specific example, "you know, something like Baseball Prospectus." After saying that out loud enough times, I decided to pester BP for a role where I could deploy my product and engineering experiences — specifically around building anew and rebuilding legacy systems — and they accepted! The current BP site has remained largely unchanged for over a decade, so I'm working with a small group of brave folks to rebuild the editorial cms, fantasy tools, players stats, email newsletters, and just about everything else.
+                </span>
+                <span class="print content">
+                    Providing senior product management experience to the COO in addition to working as a WordPress and Client-End Engineer for the current site rebuild .
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="group first item even item7">
+        <div class="group marker">
+            <span>2016</span>
         </div>
         <div class="group job vox">
             <div class="logo"><img src="assets/vox.jpg"></div>
@@ -218,13 +244,13 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
                     Began in June 2015 as a PM for Vox's Revenue Platform team. There, we built out <em>Hymnal</em>, a platform for creating and managing custom ad campaigns. I also spent lots of time chatting with cfbot and also worked to improve the user experience + performance of ads. In February of 2016, I spoke in front of the industry's top senior executives at the <a href="http://summit.digitalcontentnext.org/" target="_blank">DCN Next:Summit</a> (in Miami) about the rise of ad blocking and prioritizing the overall ad experience. Read a summary of that conference at: <a href="https://digitalcontentnext.org/blog/2016/02/08/the-future-of-media-depends-on-great-consumer-experiences/" target="_blank">digitalcontentnext.org</a>
                 </span>
                 <span class="print content">
-                    Began in June 2015 as a PM for Vox's Revenue Platform team. There, we built out <em>Hymnal</em>, a platform for creating and managing custom ad campaigns. I also spent lots of time chatting with cfbot and also worked to improve the user experience + performance of ads. In February of 2016, I spoke in front of the industry's top senior executives at the DCN Next:Summit (in Miami) about the rise of ad blocking and prioritizing the overall ad experience. Read a summary of that conference appearance at digitalcontentnext.org
+                    PM for <em>Hymnal</em>, a platform for creating and managing custom ad campaigns. Also worked with page (speed) performance team to improve the user experience + performance of display ad products. Presented, in February, at DCN Next:Summit (Miami) to industry senior executives about the rise of ad blocking and what it means to prioritize the overall user experience. Read a summary of that conference appearance at digitalcontentnext.org.
                 </span>
             </div>
         </div>
     </div>
 
-    <div class="group item even item2">
+    <div class="group item odd item6">
         <div class="group marker">
             <span>2015</span>
         </div>
@@ -251,7 +277,7 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
         </div>
     </div>
 
-    <div class="group item odd item3">
+    <div class="group item even item5">
         <div class="group marker">
             <span>2012</span>
         </div>
@@ -268,7 +294,7 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
         </div>
     </div>
 
-    <div class="group item even item4">
+    <div class="group item odd item4">
         <div class="group marker">
             <span>2011</span>
         </div>
@@ -285,7 +311,7 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
         </div>
     </div>
 
-    <div class="group item odd item5">
+    <div class="group item even item3">
         <div class="group marker">
             <span>2009</span>
         </div>
@@ -309,7 +335,7 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
         </div>
     </div>
 
-    <div class="group item even item5">
+    <div class="group item odd item2">
         <div class="group last marker">
             <span>2007</span>
         </div>
@@ -326,7 +352,7 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
         </div>
     </div>
 
-    <div class="group last item odd item7">
+    <div class="group last item even item1">
         <div class="group last marker">
             <span>2006</span>
         </div>
@@ -374,9 +400,9 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
                 <ul class="group square bullet list">
                     <li>Member - <em>ONA, IRE</em>
                     <li>Attendee - <em>NICAR</em> (2014, 2015, 2016)
+                    <li>Seminar Graduate - <em>Poynter, Building News Apps</em> (2012) 
                     <li>Board Member - <em>Creative Tampa Bay</em> (2008-10)
                     <li>Founding Co-Chair - <em>Emerge Tampa Bay</em> (2004-08)
-                    <li>Seminar Graduate - <em>Poynter, Building News Apps</em> (2012) 
                     <li>Instructor - <em>New York Times Student Journalism Institute</em> (2009)
                     <li>Web Specialist / Account Manager - <em>HCP & Associates</em> (2005-07)
                     <li>On-Air Guest Coordinator - <em>Home Shopping Network</em> (2003-05)
@@ -482,22 +508,23 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
     <a class="light" href="http://justenfox.com">justenfox.com</a><br>
     <a href="javascript:window.print()">print</a>
     <a href="justenfox.txt" target="_blank">.txt</a>
+    <a href="https://docs.google.com/document/d/1Sl3Gq3DvGAIkOKRFC_Io4ZPMPvWkdSaudb3ckCSwvqM/" target="_blank">.doc</a>
     <a href="justenfox.pdf" target="_blank">.pdf</a>
     <!-- <a href="justenfox.doc" target="_blank">.doc</a> -->
 </div>
 
 
 <script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-439245-20']);
-  _gaq.push(['_setDomainName', '.justenfox.com']);
-  _gaq.push(['_trackPageview']);
+  // var _gaq = _gaq || [];
+  // _gaq.push(['_setAccount', 'UA-439245-20']);
+  // _gaq.push(['_setDomainName', '.justenfox.com']);
+  // _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  // (function() {
+  //   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  //   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  // })();
 </script>
 
 
