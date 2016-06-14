@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /justenfox.txt
+Disallow: /justenfox.pdf
