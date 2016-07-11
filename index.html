@@ -74,7 +74,8 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
 
 .marker { width:100%; margin:0 auto; text-align:center; margin:50px 0; position:relative; }
 .marker span { text-align:center; text-transform:uppercase; font-size:12px; background:#565656; display:inline-block; padding:4px 14px; color:#dfdfdf; border-radius:6px; }
-.first .marker { margin-top:0; }
+.first.marker { margin-top:0; }
+.last.marker { margin-top:0; }
 
 .item { width:100%; margin:0; position:relative; height:auto; overflow:visible; }
 .item.odd .job .logo:before {
@@ -89,7 +90,7 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
 .item.even .job .logo:after {
     content:""; position:absolute; z-index:-1; top:60px; bottom:-40px; right:0; border-left:1px solid #d9d9d9;
 }
-.last.item .job .logo:after { top:0; bottom:0; height:0; border-left:none; }
+.last.item .job .logo:after { bottom:10px; }
 
 .item.odd .job { position:relative; left:50%; width:50%; }
 .item.even .job { position:relative; right:0; width:50%; }
@@ -229,12 +230,12 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
                 </span>
             </div>
         </div>
-    </div>
-
-    <div class="group first item even item7">
         <div class="group marker">
             <span>2016</span>
         </div>
+    </div>
+
+    <div class="group first item even item7">
         <div class="group job vox">
             <div class="logo"><img src="assets/vox.jpg"></div>
             <div class="text">
@@ -248,12 +249,12 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
                 </span>
             </div>
         </div>
-    </div>
-
-    <div class="group item odd item6">
         <div class="group marker">
             <span>2015</span>
         </div>
+    </div>
+
+    <div class="group item odd item6">
         <div class="group job tnr">
             <div class="logo"><img src="assets/tnr.jpg"></div>
             <div class="text">
@@ -275,12 +276,12 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
                 </span>
             </div>
         </div>
-    </div>
-
-    <div class="group item even item5">
         <div class="group marker">
             <span>2012</span>
         </div>
+    </div>
+
+    <div class="group item even item5">
         <div class="group job time">
             <div class="logo"><img src="assets/time.jpg"></div>
             <div class="text">
@@ -295,9 +296,6 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
     </div>
 
     <div class="group item odd item4">
-        <div class="group marker">
-            <span>2011</span>
-        </div>
         <div class="group job mlbam">
             <div class="logo"><img src="assets/mlbam.jpg"></div>
             <div class="text">
@@ -309,12 +307,12 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
                 </span>
             </div>
         </div>
+        <div class="group marker">
+            <span>2011</span>
+        </div>
     </div>
 
     <div class="group item even item3">
-        <div class="group marker">
-            <span>2009</span>
-        </div>
         <div class="group job time">
             <div class="logo"><img src="assets/tbl.jpg"></div>
             <div class="text">
@@ -333,12 +331,12 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
                 </span>
             </div>
         </div>
+        <div class="group marker">
+            <span>2009</span>
+        </div>
     </div>
 
     <div class="group item odd item2">
-        <div class="group last marker">
-            <span>2007</span>
-        </div>
         <div class="group job mlbam">
             <div class="logo"><img src="assets/nytrmg.jpg"></div>
             <div class="text">
@@ -350,12 +348,12 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
                 </span>
             </div>
         </div>
+        <div class="group marker">
+            <span>2007</span>
+        </div>
     </div>
 
     <div class="group last item even item1">
-        <div class="group last marker">
-            <span>2006</span>
-        </div>
         <div class="group job mlbam">
             <div class="logo"><img src="assets/florida.jpg"></div>
             <div class="text">
@@ -366,6 +364,9 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
                     Collaborated with communications director to create, build, product manage, and administer campaign website and e-mails.
                 </span>
             </div>
+        </div>
+        <div class="group last marker">
+            <span>2006</span>
         </div>
     </div>
 </div><!-- timeline -->
