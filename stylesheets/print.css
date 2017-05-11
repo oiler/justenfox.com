@@ -44,7 +44,9 @@ a:link, a:visited, a:hover, a:active { color:#000; }
 
 .social { display:none; visibility:visible; }
 
+/*
 .timeline .item5
 , .timeline .item1
-/*, .education.items */
 { page-break-before:always; }
+*/
+/*, .education.items */
