@@ -43,6 +43,7 @@ a:link, a:visited, a:hover, a:active { color:#000; }
 
 
 .social { display:none; visibility:visible; }
+.timeline.items, .education.items, .other.items { width:94%; margin-left:3%; margin-right:3%; }
 
 /*
 .timeline .item5
