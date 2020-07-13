@@ -627,6 +627,22 @@ body { font-family:Verdana, sans-serif; font-size:10px; }
   })();
 </script>
 
+<script>
+    ;(function (window, document, undefined) {
+      'use strict';
+      // IFFY code
+      console.log('IFFY');
+      //setup_nav();
+      //ga('send', 'event', [eventCategory], [eventAction], [eventLabel], [eventValue], [fieldsObject]);
+      //ga('send', 'event', 'Videos', 'play', 'Fall Campaign', {nonInteraction: true});
+      ga('send', 'event', 'test_category', 'test_action', 'test_label', {nonInteraction: true});
+
+
+
+
+    })(window, document);
+
+
 
 </body>
 </html>
