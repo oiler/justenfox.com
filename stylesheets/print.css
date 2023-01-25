@@ -1,18 +1,19 @@
 /*print.css*/
-.screen.content { display:none!important; visibility:hidden!important; height:0!important; }
-.print.content { display:block!important; visibility:visible!important; height:auto!important; }
+/* .screen.content { display:none!important; visibility:hidden!important; height:0!important; } */
+/* .print.content { display:block!important; visibility:visible!important; height:auto!important; } */
 
-.square.bullet.list { margin:10px; padding:0 10px; }
+/* .square.bullet.list { margin:10px; padding:0 10px; }
 
 .wrapper { width:100%; overflow:hidden; }
 .page.header { margin-top:14px; }
-.section.header { margin:30px 0 10px 0; }
+.section.header { margin:72px 0 10px 0; }
 .header .social { float:none; width:100%; }
 .header .social img { float:none; }
-.lede { text-align:left; margin-left:0; }
+.lede { text-align:left; margin-left:0; margin:0 auto; }
+.lede .text { max-width:550px; margin:0 auto; }
 .marker { margin:10px auto 30px auto; text-align:left; background:#fff; padding:10px 0 0 0; }
-.marker span { width:60px; }
-/*.item { overflow:inherit; }*/
+.marker span { width:68px; }
+
 .item.odd .job,
 .item.even .job { left:44px; width:98%; }
 .item.odd .job img,
@@ -38,16 +39,23 @@ a:link, a:visited, a:hover, a:active { color:#000; }
 .section.header.currently,
 .footer { display:none; visibility:hidden; height:0; margin:0; }
 
-/* ENABLE 'briefly about' section here & comment out above ^^^ area */ 
-/*.group.lede.about { margin-left:44px; max-width:600px; }*/
-
 
 .social { display:none; visibility:visible; }
 .timeline.items, .education.items, .other.items { width:94%; margin-left:3%; margin-right:3%; }
 
-/*
-.timeline .item5
-, .timeline .item1
-{ page-break-before:always; }
-*/
-/*, .education.items */
+.skill-title, .skill {
+    background:#fff;
+    color:#000;
+    margin:0;
+    padding:0;
+    border-radius:0;
+
+}
+ */
+
+ @media print {
+    .print-line-break {
+        clear: both;
+        page-break-after: always;
+    }
+}
