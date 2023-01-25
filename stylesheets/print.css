@@ -1,4 +1,20 @@
 /*print.css*/
+
+.print-only-show { display:block; }
+.print-only-hide { display:none; }
+.print-line-break {
+    clear: both;
+    page-break-after: always;
+}
+.skill {
+    background:#fff;
+    color:#000;
+    margin:4px 0 0 0;
+    padding:2px 4px;
+}
+.other.items .notables ul li { font-size:10px; }
+
+
 /* .screen.content { display:none!important; visibility:hidden!important; height:0!important; } */
 /* .print.content { display:block!important; visibility:visible!important; height:auto!important; } */
 
@@ -52,10 +68,3 @@ a:link, a:visited, a:hover, a:active { color:#000; }
 
 }
  */
-
- @media print {
-    .print-line-break {
-        clear: both;
-        page-break-after: always;
-    }
-}
